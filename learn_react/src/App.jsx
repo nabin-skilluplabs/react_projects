@@ -4,6 +4,7 @@ import LogIn from "./components/LogIn";
 import Profiles from "./components/Profiles";
 import TodoList from "./components/TodoList";
 import PackagingList from "./components/PackagingList";
+import List from "./components/List";
 
 function App() {
   return (
@@ -22,6 +23,9 @@ function App() {
       <LogIn isLoggedIn={false} />
 
       <PackagingList />
+
+      <h2 className="text-2xl font-bold mt-4">Rendering Lists</h2>
+      <List />
 
     </div>
   )
